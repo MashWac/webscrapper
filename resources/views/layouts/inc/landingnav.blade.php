@@ -1,5 +1,5 @@
 <header> 
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar landernav navbar-expand-lg ms-auto sticky-top navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/home') }}">
                 <img src="/staticimg/sienslogo2.png/" alt="logo" height="70px" width="190px">

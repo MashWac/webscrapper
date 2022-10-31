@@ -1,0 +1,145 @@
+.mainbody{
+  width: 100%;
+}
+.landernav{
+  overflow: hidden;
+  position: fixed;
+  top:5%;
+  right:0%;
+  /* margin-top:3%; */
+  width:65%;
+  border-radius: 0.4rem;
+  background-color: rgb(255, 255, 255);
+}
+.navlinks{
+  text-decoration: none;
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family: 'Acme', sans-serif;
+  /* font-family: 'Goldman', cursive; */
+  /* font-family: 'Kanit', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Russo One', sans-serif;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  font-family: 'Vollkorn', serif; */
+}
+.navlinks:hover{
+  background-color: rgb(21, 21, 21);
+  border-radius: 0.4rem;
+}
+.navlinks:hover>.navopts{
+  color: rgb(236, 236, 236);
+}
+.navopts{
+  color: rgb(21, 21, 21);
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left:10px;
+  
+}
+.comptitleplacehold{
+    /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Goldman', cursive;
+    /* font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Vollkorn', serif; */
+    color: black;
+}
+.searcharea{
+  position: relative;
+  top: 40%;
+  margin-left: 3%;
+  background-color: whitesmoke;
+  height: 40vh;
+  width: 45%;
+  border-radius: 0.4rem;
+}
+.searchlandcontent{
+  margin-left: 6%;
+  
+}
+.landingback{
+  /* position: absolute; */
+  color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  background-image: url(/assets/staticimgs/peopleland.jpg);
+  background-size: cover;
+}
+
+.landweltext{
+      /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Acme', sans-serif;
+    /* font-family: 'Goldman', cursive; */
+    /* font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Vollkorn', serif; */
+    font-size: 25px;
+    color: black;
+}
+.landingcategories{
+  width:100%;
+  justify-content: center;
+  
+  overflow:auto;
+  border: none;
+  box-shadow: 5px 5px 5px 5px #bebebe;
+}
+.landingcategory{
+  float: left;
+  margin: 1%;
+}
+.sectiontitle{
+        /* font-family: 'Abril Fatface', cursive; */
+        font-family: 'Acme', sans-serif;
+        /* font-family: 'Goldman', cursive; */
+        /* font-family: 'Kanit', sans-serif;
+        font-family: 'Lobster', cursive;
+        font-family: 'Merriweather', serif;
+        font-family: 'Patua One', cursive;
+        font-family: 'Prompt', sans-serif;
+        font-family: 'Righteous', cursive;
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Secular One', sans-serif;
+        font-family: 'Varela Round', sans-serif;
+        font-family: 'Vollkorn', serif; */
+        font-size: 25px;
+        margin-left: 2%;
+        color: black;
+}
+.landfeaturedprods{
+  margin-top: 2%;
+  width:100%;
+  justify-content: center; 
+  overflow:auto;
+  padding-top: 1%;
+  background-color: #f0f0f0;
+}
+.prodsland{
+  margin: 3%;
+  float: left;
+}
+

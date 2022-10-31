@@ -33,7 +33,7 @@
     <!-- Styles -->
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
 </head>
-@include('layouts.nav')
+@include('layouts.inc.landingnav')
 <body>
     <div class="mainbody">
     @yield('content')
@@ -52,12 +52,12 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     
+    
     @if(session('status'))
     <script>
         swal("{{session('status')}}")
     </script>
     @endif
-    @include('layouts.footer')
 
 </body>
 </html>
