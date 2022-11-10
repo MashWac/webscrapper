@@ -42,6 +42,23 @@
   margin-left:10px;
   
 }
+
+.clientlinks:hover{
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.4rem;
+}
+.clientlinks:hover>.clientnavopts{
+  color: rgb(13, 13, 13);
+}
+.clientnavopts{
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;  
+}
+/* landing page start */
+
 .comptitleplacehold{
     /* font-family: 'Abril Fatface', cursive; */
     /* font-family: 'Acme', sans-serif; */
@@ -68,17 +85,22 @@
   width: 45%;
   border-radius: 0.4rem;
 }
+.hellotext{
+  position: relative;
+  top: 48%;
+  padding-left: 40%;
+}
 .searchlandcontent{
   margin-left: 6%;
   
 }
 .landingback{
-  /* position: absolute; */
   color: whitesmoke;
-  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   width: 100%;
+  height: 120vh;
   background-image: url(/assets/staticimgs/peopleland.jpg);
-  background-size: cover;
 }
 
 .landweltext{
@@ -111,6 +133,17 @@
   float: left;
   margin: 1%;
 }
+.categorytransition{
+  height: 150px;
+  width:200px;
+  vertical-align:middle;
+  background-color: rgb(112, 3, 3);
+  color: whitesmoke;
+  font-size: xx-large;
+  border-radius: 3px;
+  text-align: right;
+
+}
 .sectiontitle{
         /* font-family: 'Abril Fatface', cursive; */
         font-family: 'Acme', sans-serif;
@@ -142,4 +175,71 @@
   margin: 3%;
   float: left;
 }
+.aboutsection{
+  margin-left: 2%;
+  width: 98%;
+  display: block;
+  overflow: auto;
+  justify-content: center; 
+}
+.aboutcse{
+  margin-left: 3%;
+  width:50%;
+  margin-top:2%;
+}
+.abouttexts{
+  width: 29%;
+  min-width: 250px;
+  display: block;
+  overflow: none;
+  margin: 1.5%;
+  float: left;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.blogsection{
+  background-color: #f0f0f0;
+  width:100%;
+  margin-top: 10px;
+  padding-top: 15px;
+  display: block;
+  overflow: auto;
+}
 
+.blogs{
+  float: left;
+  margin: 2%;
+}
+/* where footer starts */
+#footer{
+
+  font-family: 'Vollkorn', serif;
+  display:grid;
+  justify-content: center;
+  background-color: rgb(81, 80, 80);
+  position: sticky;
+  top: 100%;
+  padding-top: 20px;
+ 
+}
+.footerinfo{
+  color: rgb(193, 193, 193);
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+#socials{
+  font-size: 22px;
+}
+#infolinks{
+  list-style: none;
+}
+.pagelinks{
+  text-decoration: none;
+  color: black;
+}
+.footerlinks{
+  padding-top: 15px;
+}

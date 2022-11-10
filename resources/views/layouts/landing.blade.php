@@ -34,6 +34,8 @@
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
 </head>
 @include('layouts.inc.landingnav')
+@include('layouts.inc.clientnav')
+
 <body>
     <div class="mainbody">
     @yield('content')
@@ -41,11 +43,15 @@
     </div>
 
 
+    @include('layouts.inc.clientfooter')
+
     <!--- Scripts-->
     <script src="{{ asset('frontend/js/jquery-3.6.0.min.js') }}" defer></script>
     <!-- <script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}" defer></script> -->
 
     <script src="{{ asset('frontend/js/paycalc.js') }}" defer></script>
+    <script src="{{ asset('frontend/js/hideshownav.js') }}" defer></script>
+
     <script src="{{ asset('frontend/js/downloadpdf.js') }}" defer></script>
     <script src="{{ asset('frontend/js/formdisplay.js') }}" defer></script>
 

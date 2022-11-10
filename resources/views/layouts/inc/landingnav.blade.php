@@ -31,10 +31,6 @@
                         ABOUT US
                     </li>
                     </a> 
-                    <a class="navlinks" href="">
-                    <a class="navlinks" href="{{ url('cart') }}">
-
-                    </a>
                 </ul>
             </div>
         </div>
