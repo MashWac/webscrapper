@@ -9,7 +9,7 @@
 
     <title>{{ config('app.name', 'Webscrapper') }}</title>
     <!----fonts---->
-    <link rel="icon" href="{{ url('/staticimg/fav.png') }}">
+    <link rel="icon" href="{{ url('/assets/staticimgs/csefav.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +27,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans:ital@0;1&family=Poppins:wght@300;400&family=Raleway:ital,wght@0,400;1,300&family=Red+Hat+Mono&family=Roboto+Condensed&family=Roboto:ital,wght@0,400;1,300&family=Source+Sans+Pro:ital,wght@0,400;1,300&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.js" integrity="sha512-vNrhFyg0jANLJzCuvgtlfTuPR21gf5Uq1uuSs/EcBfVOz6oAHmjqfyPoB5rc9iWGSnVE41iuQU4jmpXMyhBrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Styles -->
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
@@ -50,13 +51,17 @@
     <!-- <script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}" defer></script> -->
 
     <script src="{{ asset('frontend/js/paycalc.js') }}" defer></script>
+    <script src="{{ asset('frontend/js/fadecategory.js') }}" defer></script>
+
     <script src="{{ asset('frontend/js/hideshownav.js') }}" defer></script>
 
     <script src="{{ asset('frontend/js/downloadpdf.js') }}" defer></script>
     <script src="{{ asset('frontend/js/formdisplay.js') }}" defer></script>
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+ 
     
     
     @if(session('status'))

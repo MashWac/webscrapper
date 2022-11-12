@@ -81,14 +81,30 @@
   top: 40%;
   margin-left: 3%;
   background-color: whitesmoke;
-  height: 40vh;
+  min-height: 40vh;
+  display: block;
+  overflow:hidden;
+  align-items: center;
   width: 45%;
+  min-width: 300px;
   border-radius: 0.4rem;
 }
 .hellotext{
   position: relative;
   top: 48%;
   padding-left: 40%;
+}
+.hellotextlarge{
+  color: black;
+}
+.uploadbom{
+  padding-top: 3%;
+}
+.uploadbombtn{
+  margin-left: 10%;
+  background: none;
+  border: dashed;
+  color: black;
 }
 .searchlandcontent{
   margin-left: 6%;
@@ -122,9 +138,10 @@
     color: black;
 }
 .landingcategories{
+  padding-left: 20%;
   width:100%;
   justify-content: center;
-  
+  align-items: center;
   overflow:auto;
   border: none;
   box-shadow: 5px 5px 5px 5px #bebebe;
@@ -132,17 +149,38 @@
 .landingcategory{
   float: left;
   margin: 1%;
+  position: relative;
 }
 .categorytransition{
   height: 150px;
   width:200px;
-  vertical-align:middle;
-  background-color: rgb(112, 3, 3);
-  color: whitesmoke;
+  align-items: center;
+  background-color: rgb(165, 165, 165);
+  color: rgb(14, 13, 13);
   font-size: xx-large;
   border-radius: 3px;
   text-align: right;
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family: 'Acme', sans-serif;
+  /* font-family: 'Goldman', cursive; */
+  /* font-family: 'Kanit', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Russo One', sans-serif;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  font-family: 'Vollkorn', serif; */
 
+}
+.categoryimage{
+  position: absolute;
+}
+.categorynametext{
+  padding-top: 30%;
 }
 .sectiontitle{
         /* font-family: 'Abril Fatface', cursive; */
@@ -242,4 +280,24 @@
 }
 .footerlinks{
   padding-top: 15px;
+}
+.tablesection{
+  width: 80%;
+  margin-left: 2%;
+}
+.adsesection1{
+  width: 80%;
+  margin-left: 2%;
+  height: 20vh;
+  background-color: #bebebe;
+}
+.tableheader{
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.resultssearchnumber{
+  margin-left: 2%;
+}
+.filtersection{
+  margin-left: 2%;
 }

@@ -34,7 +34,7 @@
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
 </head>
 <body>
-@include('layouts.clientnav')
+@include('layouts.inc.clientnavres')
 
     <div class="mainbody">
     @yield('content')
@@ -58,7 +58,7 @@
         swal("{{session('status')}}")
     </script>
     @endif
-    @include('layouts.footer')
+    @include('layouts.inc.clientfooter')
 
 </body>
 </html>

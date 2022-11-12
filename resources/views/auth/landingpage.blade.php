@@ -4,7 +4,6 @@
     <div class="container-fluid landingback">
       <div class="searcharea">
           <div class="searchlandcontent"> 
-            <h3 class="comptitleplacehold">ELECTRONIC COMPONENTS CSE</h3>
             <p class="landweltext">SEARCH ELECTRONIC PARTS AND COMPARE PRICES</p>
             <div class="searchinput">
                 <form action="{{url('insert-prod')}}" method="POST">
@@ -19,9 +18,20 @@
                     </div> 
                 </form>
             </div>
+            <div class="uploadbom">                
+              <button class="btn btn-dark uploadbombtn" onclick="document.getElementById('filebom').click();" ><ion-icon name="cloud-upload-outline"></ion-icon> UPLOAD BOM</button>
+              <form action="" method="POST">
+                @csrf
+                <input type="file" style="display:none;" id="filebom" name="filebom"/>
+              </form>
+            </div>
+            <div class="hellotextlarge d-none d-lg-flex ">
+              <h4 class="texthellolarge">Hey {{date("l")}}! What's the Latest?</h4>
+            </div>
           </div>
+         
       </div>
-      <div class="hellotext">
+      <div class="hellotext d-block d-sm-block d-md-block d-lg-none">
         <h4 class="texthello">Hey {{date("l")}}! What's the Latest?</h4>
       </div>
     </div>
@@ -33,28 +43,60 @@
 </div>
 <div class="landingcategories">
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
     <div class="categorytransition text-center"> 
-      <h4>Category Name</h4>
+      <h4 class="categorynametext">Category Name</h4>
     </div>
   </div>
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
+    <div class="categorytransition text-center"> 
+      <h4 class="categorynametext">Category Name</h4>
+    </div>
   </div>
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
+    <div class="categorytransition text-center"> 
+      <h4 class="categorynametext">Category Name</h4>
+    </div>
   </div>
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
+    <div class="categorytransition text-center"> 
+      <h4 class="categorynametext">Category Name</h4>
+    </div>
   </div>
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
+    <div class="categorytransition text-center"> 
+      <h4 class="categorynametext">Category Name</h4>
+    </div>
   </div>
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
+    <div class="categorytransition text-center"> 
+      <h4 class="categorynametext">Category Name</h4>
+    </div>
   </div>
   <div class="landingcategory">
-    <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    <div class="categoryimage">
+      <img src="/assets/staticimgs/microland.jpg" height="150px" width="200px">  
+    </div>
+    <div class="categorytransition text-center"> 
+      <h4 class="categorynametext">Category Name</h4>
+    </div>
   </div>
 </div>
 

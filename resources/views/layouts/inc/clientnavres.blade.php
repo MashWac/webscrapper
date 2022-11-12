@@ -1,5 +1,5 @@
 <header> 
-<nav class="navbar landernav navbar-expand-lg ms-auto sticky-top navbar-light">
+<nav class="navbar  navbar-expand-lg navbar-dark bg-dark clientnave">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/home') }}">
                 <img src="/assets/staticimgs/cse.png" alt="logo" height="70px" width="90px">
@@ -9,25 +9,25 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <a class="navlinks" href="{{ url('home') }}">
-                        <li class="navopts"> 
+                <ul class="navbar-nav ms-auto">
+                    <a class="clientlinks navlinks" href="{{ url('home') }}">
+                        <li class="clientnavopts"> 
                             HOME
                         </li>
                     </a>
-                    <a class="navlinks" href="{{ url('prodpage') }}">
-                    <li class="navopts"> 
+                    <a class="navlinks clientlinks" href="{{ url('prodpage') }}">
+                    <li class="clientnavopts"> 
                         PRODUCTS
                     </li>
                     </a>
         
-                    <a class="navlinks" href="{{ url('/contacts') }}">
-                    <li class="navopts"> 
+                    <a class="navlinks clientlinks" href="{{ url('/contacts') }}">
+                    <li class="clientnavopts"> 
                         CONTACT US
                     </li>
                     </a> 
-                    <a class="navlinks" href="{{ url('/aboutus') }}">
-                    <li class="navopts"> 
+                    <a class="navlinks clientlinks" href="{{ url('/aboutus') }}">
+                    <li class="clientnavopts"> 
                         ABOUT US
                     </li>
                     </a> 

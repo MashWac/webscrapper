@@ -13,9 +13,9 @@ use App\Http\Controllers\Userclient\ClientendController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('homepage',[ClientendController::class,'landing']);
-
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/',[ClientendController::class,'landing']);
+Route::get('productlist',[ClientendController::class,'productlist']);
 
