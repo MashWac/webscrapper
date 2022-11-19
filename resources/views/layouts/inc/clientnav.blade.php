@@ -10,12 +10,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ms-auto">
-                    <a class="clientlinks navlinks" href="{{ url('home') }}">
+                    <a class="clientlinks navlinks" href="{{ url('/') }}">
                         <li class="clientnavopts"> 
                             HOME
                         </li>
                     </a>
-                    <a class="navlinks clientlinks" href="{{ url('prodpage') }}">
+                    <a class="navlinks clientlinks" href="{{ url('productlist') }}">
                     <li class="clientnavopts"> 
                         PRODUCTS
                     </li>
