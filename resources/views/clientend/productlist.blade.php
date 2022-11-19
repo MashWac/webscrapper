@@ -1,9 +1,12 @@
 @extends('layouts.client')
 @section('content')
+<div class="productlistbody">
 <div class="adsesection1">
     ADVERT1
 </div>
-<div class="resultssearchnumber"><h3>Results:14,000</h3> </div>
+<div class="resultssearchnumber">
+    <h3>Results:14,000</h3>
+ </div>
 <div class="filtersection">
     <ul>
         <li>Price</li>
@@ -56,6 +59,18 @@
             </tr>
         </tbody>
     </table>
+</div>
+    <div class="smallprods">
+        <div class="productstrip">
+            <div class="imagespace">
+
+            </div>
+            <div class="textsection">
+
+            </div>
+
+        </div>
+    </div>
 </div>
 
 @endsection  
