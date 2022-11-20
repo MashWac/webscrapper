@@ -18,4 +18,6 @@ use App\Http\Controllers\Userclient\ClientendController;
 // });
 Route::get('/',[ClientendController::class,'landing']);
 Route::get('productlist',[ClientendController::class,'productlist']);
+Route::get('productpage',[ClientendController::class,'productpage']);
+
 

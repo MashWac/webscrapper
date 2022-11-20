@@ -1,7 +1,7 @@
 <header> 
 <nav class="navbar landernav navbar-expand-lg ms-auto sticky-top navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('/home') }}">
+            <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="/assets/staticimgs/cse.png" alt="logo" height="70px" width="90px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,4 +1,5 @@
 .mainbody{
+  min-height: 100vh;
   width: 100%;
 }
 .landernav{
@@ -257,7 +258,8 @@
   justify-content: center;
   background-color: rgb(81, 80, 80);
   position: sticky;
-  top: 100%;
+  width: 100%;
+  bottom: 0;
   padding-top: 20px;
  
 }
@@ -283,6 +285,13 @@
   padding-top: 15px;
 }
 /* productlistpage */
+.productlistbody{
+  min-height: 100vh;
+  margin-top: 5%;
+  display: block;
+  margin-bottom: 10%;
+  overflow: auto;
+}
 .tablesection{
   width: 80%;
   margin-left: 2%;
@@ -293,6 +302,16 @@
   height: 20vh;
   background-color: #bebebe;
 }
+.adsection2{
+  width: 15%;
+  margin-left: 2%;
+  height: 80vh;
+  background-color: #bebebe;
+  right: 0;
+  top:  35%;
+  position:absolute;
+  float: right;
+}
 .tableheader{
   background-color: rgb(37, 37, 37);
   color: white;
@@ -302,4 +321,31 @@
 }
 .filtersection{
   margin-left: 2%;
+  display: block;
+  overflow: auto;
+}
+.imagesmallversion{
+  min-width: 150px;
+  min-height: 150px;
+}
+.filterbody{
+  list-style: none;
+}
+.filterbody>li{
+  float: left;
+  margin-right: 1%;
+  margin: 1%;
+}
+.filtersection{
+  margin-bottom: 5%;
+}
+.productpagebody{
+  min-height: 100vh;
+  width: 100%;
+}
+.tabledistributors{
+  width: 80%;
+}
+.comparepricesection{
+  margin-left: 3%;
 }

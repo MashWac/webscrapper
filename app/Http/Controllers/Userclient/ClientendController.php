@@ -14,4 +14,7 @@ class ClientendController extends Controller
     public function productlist(){
         return view("clientend.productlist");
     }
+    public function productpage(){
+        return view("clientend.productpage");
+    }
 }
